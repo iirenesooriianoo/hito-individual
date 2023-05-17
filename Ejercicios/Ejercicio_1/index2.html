@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <p>
+          Calculadora Irene.
+        </p>
+        <div class="calculator">
+          <div id="calculator__display">0</div>
+    
+          <div id="calculator__keys">
+            <button class="key--operator" data-action="add" onclick="appendOperator('+')">+</button>
+            <button class="key--operator" data-action="subtract" onclick="appendOperator('-')">-</button>
+            <button class="key--operator" data-action="multiply" onclick="appendOperator('*')">&times;</button>
+            <button class="key--operator" data-action="divide" onclick="appendOperator('/')">÷</button>
+            <button onclick="appendValue(7)">7</button>
+            <button onclick="appendValue(8)">8</button>
+            <button onclick="appendValue(9)">9</button>
+            <button onclick="appendValue(4)">4</button>
+            <button onclick="appendValue(5)">5</button>
+            <button onclick="appendValue(6)">6</button>
+            <button onclick="appendValue(1)">1</button>
+            <button onclick="appendValue(2)">2</button>
+            <button onclick="appendValue(3)">3</button>
+            <button onclick="appendValue(0)">0</button>
+            <button data-action="decimal" onclick="appendValue('.')">.</button>
+            <button data-action="clear" onclick="clearResult()">AC</button>
+            <button class="key--equal" data-action="calculate" onclick="calculate()">=</button>
+            <button class="key--operator" onclick="calculateSquare()">x^2</button>
+            <button class="key--operator" onclick="calculateSquareRoot()">V</button>
+            <button class="key--operator" onclick="calculatePercentage()">%</button>
+          </div>
+        </div>
+      </div>
+      <script src="script2.js"></script>
+</body>
+</html>

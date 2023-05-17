@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #aaabab;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 10vh;
+}
+.nombre{
+    order: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin-left: 5px; 
+    font-size: 25px;
+}
+.titulo{
+    order: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 30px;
+}
+.titulo img{
+    width: 70px;
+    height: 70px;
+}
+.titulo h1{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.curso{
+    order: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    margin-right: 5px;
+}
+.curso h3{
+    font-size: 30px;
+}
+
+section{
+    background-color: rgb(236, 233, 233);
+    width: 100vw;
+}
+.pais{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+}
+.row{
+    width: 100vw;
+    display: flex;
+    width: 100%;
+}
+.col-xxl-2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+#boton{
+    display: flex;
+    width: 5%;
+    justify-content: center;
+    margin-left: 910px;
+    
+}
+.tabla{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tabla thead{
+    width: 100%;
+    
+}
+.tabla tr{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+.tabla thead tr th{
+    width: 5%;
+    font-size: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+    
+}
+
+#resp{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tabla tr td{
+    width: 5%;
+    font-size: 15px;
+    padding-right: 60px;
+    padding-left: 60px; 
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #aaabab;
+    width: 100vw;
+    height: 7vh;
+    padding-top: 30px;
+}
+footer div {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
